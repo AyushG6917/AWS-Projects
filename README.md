@@ -53,8 +53,8 @@ Each project has its own folder with:
 ## 📬 Contact
 
 Feel free to connect with me on:
-- [LinkedIn](https://linkedin.com/in/your-profile)
-- <!--[Portfolio](https://your-portfolio-link.com)-->
+- [LinkedIn](https://linkedin.com/in/ayush=gowarkar)
+<!-- - [Portfolio](https://your-portfolio-link.com)-->
 
 ---
 
