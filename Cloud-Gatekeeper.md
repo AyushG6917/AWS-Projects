@@ -43,28 +43,6 @@ Create a secure, tiered VPC architecture where:
 
 ---
 
-## 🧭 Architecture Diagram
-
-v
-               ┌────────────────────────────┐
-               │      VPC: 10.0.0.0/18      │
-               │                            │
-               │   ┌────────────┐           │
-               │   │Public_Sub1 │────────┐  │
-               │   └────────────┘        │  │
-               │   ┌────────────┐        ▼  │
-               │   │Public_Sub2 │     Public_EC2s
-               │   └────────────┘        ▲  │
-               │   ┌────────────┐        │  │
-               │   │Private_Sub1│────────┘  │
-               │   └────────────┘     Private_EC2s
-               │   ┌────────────┐           │
-               │   │Private_Sub2│───────────┘
-               └────────────────────────────┘
-                      🔐 SSH Jump Only
-
-
----
 
 ## 🚀 Steps to Reproduce
 
@@ -93,6 +71,14 @@ v
 6. **Permission Fix** (if needed)  
    ```bash
    chmod 400 key.pem
+
+--- 
+
+## 📘 Detailed Steps & Documentation
+
+The entire project, along with all the steps, has been **explained very well in my Notion document**.
+
+👉 [View Full Project Documentation on Notion](https://www.notion.so/Project-Cloud-Gatekeeper-SSH-Access-in-a-Tiered-VPC-229fe671091680c09b37c736a8669511?source=copy_link)
 
 ---
 
